@@ -1,0 +1,6 @@
+framework module Pods_CTEx {
+  umbrella header "Pods-CTEx-umbrella.h"
+
+  export *
+  module * { export * }
+}
