@@ -516,7 +516,7 @@
             </objects>
             <point key="canvasLocation" x="2252.1739130434785" y="978.34821428571422"/>
         </scene>
-        <!--CoreData into TableView-->
+        <!--CTEx Search-->
         <scene sceneID="4yj-im-Sr8">
             <objects>
                 <tableViewController id="2Zw-SG-bD7" customClass="TableViewController" customModule="CTEx" customModuleProvider="target" sceneMemberID="viewController">
@@ -594,7 +594,7 @@
                             <outlet property="delegate" destination="2Zw-SG-bD7" id="mBK-pI-4s1"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CoreData into TableView" id="YXk-OV-yM4"/>
+                    <navigationItem key="navigationItem" title="CTEx Search" id="YXk-OV-yM4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZXm-1v-omc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -602,11 +602,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="house" catalog="system" width="32" height="32"/>
-        <image name="info.circle" catalog="system" width="32" height="32"/>
+        <image name="house" catalog="system" width="64" height="54"/>
+        <image name="info.circle" catalog="system" width="64" height="60"/>
         <image name="line.horizontal.3" catalog="system" width="32" height="32"/>
         <image name="magnifyingglass" catalog="system" width="64" height="56"/>
-        <image name="person.circle" catalog="system" width="32" height="32"/>
+        <image name="person.circle" catalog="system" width="64" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="x7G-fs-BNP"/>
