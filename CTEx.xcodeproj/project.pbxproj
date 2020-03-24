@@ -22,24 +22,15 @@
 		AF7A4F99240EE2630030949E /* LoginHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A4F98240EE2630030949E /* LoginHomeViewController.swift */; };
 		AF7A4F9D240EEFD90030949E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A4F9C240EEFD90030949E /* Utilities.swift */; };
 		AFBE8F25241171A300863BFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFBE8F24241171A300863BFA /* GoogleService-Info.plist */; };
-		DD74DFD924294C7F0070C06C /* CTExSearchBar in Resources */ = {isa = PBXBuildFile; fileRef = DD74DFD824294C7D0070C06C /* CTExSearchBar */; };
-		DD74DFE324299BC00070C06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD74DFE224299BC00070C06C /* Assets.xcassets */; };
-		DDCFB2262429B73D00D8FD14 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCFB2252429B73C00D8FD14 /* TableViewController.swift */; };
-		DDCFB2382429B76700D8FD14 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCFB2292429B76300D8FD14 /* TableViewCell.swift */; };
+		DD8AEDFC242A82C4005662C2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8AEDFA242A82C3005662C2 /* TableViewController.swift */; };
+		DD8AEDFD242A82C4005662C2 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8AEDFB242A82C3005662C2 /* TableViewCell1.swift */; };
+		DD8AEDFF242A82E6005662C2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8AEDFE242A82E6005662C2 /* Model.swift */; };
+		DD8AEE01242A82EE005662C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8AEE00242A82EE005662C2 /* DetailViewController.swift */; };
+		DD8AEE05242AC21E005662C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8AEE04242AC21E005662C2 /* Assets.xcassets */; };
 		DDCFB2392429B76700D8FD14 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCFB2302429B76400D8FD14 /* CoreDataManager.swift */; };
 		DDCFB23B2429B76700D8FD14 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DDCFB2322429B76500D8FD14 /* .gitignore */; };
 		DDCFB23D2429B76700D8FD14 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDCFB2342429B76600D8FD14 /* CoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DDCFB2422429C3F000D8FD14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DDCFB23E2429C3EF00D8FD14 /* CoreData.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A17A578B1E1605ED0058ED13;
-			remoteInfo = CoreDataDemo1;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		394821187FB8FA00DAC432CD /* Pods-CTEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTEx.release.xcconfig"; path = "Target Support Files/Pods-CTEx/Pods-CTEx.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,14 +52,14 @@
 		AF7A4F9C240EEFD90030949E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		AFBE8F24241171A300863BFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B387A0D7E1A3FFB02A90EA58 /* Pods-CTEx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTEx.debug.xcconfig"; path = "Target Support Files/Pods-CTEx/Pods-CTEx.debug.xcconfig"; sourceTree = "<group>"; };
-		DD74DFD824294C7D0070C06C /* CTExSearchBar */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CTExSearchBar; path = ../../CTExSearchBar; sourceTree = "<group>"; };
-		DD74DFE224299BC00070C06C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../CTExSearchBar/CoreData/Assets.xcassets; sourceTree = "<group>"; };
-		DDCFB2252429B73C00D8FD14 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../../CTExSearchBar/TableViewController.swift; sourceTree = "<group>"; };
-		DDCFB2292429B76300D8FD14 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../../CTExSearchBar/CoreData/TableViewCell.swift; sourceTree = "<group>"; };
+		DD8AEDFA242A82C3005662C2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DD8AEDFB242A82C3005662C2 /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		DD8AEDFE242A82E6005662C2 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DD8AEE00242A82EE005662C2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DD8AEE04242AC21E005662C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		DDCFB2302429B76400D8FD14 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = ../../CTExSearchBar/CoreData/CoreDataManager.swift; sourceTree = "<group>"; };
 		DDCFB2322429B76500D8FD14 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../../CTExSearchBar/.gitignore; sourceTree = "<group>"; };
 		DDCFB2352429B76600D8FD14 /* CoreDataDemo1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDemo1.xcdatamodel; sourceTree = "<group>"; };
-		DDCFB23E2429C3EF00D8FD14 /* CoreData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoreData.xcodeproj; path = ../../CTExSearchBar/CoreData.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,22 +112,22 @@
 		AF39134D2408415600845A1D /* CTEx */ = {
 			isa = PBXGroup;
 			children = (
-				DD74DFD824294C7D0070C06C /* CTExSearchBar */,
 				AF7A4F9B240EEF820030949E /* LoginHelpers */,
 				AF7A4F9A240EE2B90030949E /* Login */,
 				DDCFB2322429B76500D8FD14 /* .gitignore */,
 				AF39134E2408415600845A1D /* AppDelegate.swift */,
-				DDCFB23E2429C3EF00D8FD14 /* CoreData.xcodeproj */,
 				AF3913502408415600845A1D /* SceneDelegate.swift */,
 				AF3913542408415600845A1D /* Main.storyboard */,
 				AF3913522408415600845A1D /* HomeViewController.swift */,
-				DDCFB2252429B73C00D8FD14 /* TableViewController.swift */,
 				DDCFB2342429B76600D8FD14 /* CoreData.xcdatamodeld */,
 				DDCFB2302429B76400D8FD14 /* CoreDataManager.swift */,
-				DDCFB2292429B76300D8FD14 /* TableViewCell.swift */,
 				AFBE8F232411716A00863BFA /* Menu */,
-				DD74DFE224299BC00070C06C /* Assets.xcassets */,
 				AF3913592408415D00845A1D /* LaunchScreen.storyboard */,
+				DD8AEE04242AC21E005662C2 /* Assets.xcassets */,
+				DD8AEDFB242A82C3005662C2 /* TableViewCell1.swift */,
+				DD8AEE00242A82EE005662C2 /* DetailViewController.swift */,
+				DD8AEDFE242A82E6005662C2 /* Model.swift */,
+				DD8AEDFA242A82C3005662C2 /* TableViewController.swift */,
 				AFBE8F24241171A300863BFA /* GoogleService-Info.plist */,
 				AF39135C2408415D00845A1D /* Info.plist */,
 			);
@@ -170,14 +161,6 @@
 				AF3913662408526B00845A1D /* MenuViewController.swift */,
 			);
 			path = Menu;
-			sourceTree = "<group>";
-		};
-		DDCFB23F2429C3EF00D8FD14 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DDCFB2432429C3F000D8FD14 /* CoreDataDemo1.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,28 +211,12 @@
 			mainGroup = AF3913422408415600845A1D;
 			productRefGroup = AF39134C2408415600845A1D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DDCFB23F2429C3EF00D8FD14 /* Products */;
-					ProjectRef = DDCFB23E2429C3EF00D8FD14 /* CoreData.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				AF39134A2408415600845A1D /* CTEx */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DDCFB2432429C3F000D8FD14 /* CoreDataDemo1.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CoreDataDemo1.app;
-			remoteRef = DDCFB2422429C3F000D8FD14 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AF3913492408415600845A1D /* Resources */ = {
@@ -258,9 +225,8 @@
 			files = (
 				DDCFB23B2429B76700D8FD14 /* .gitignore in Resources */,
 				AF39135B2408415D00845A1D /* LaunchScreen.storyboard in Resources */,
-				DD74DFD924294C7F0070C06C /* CTExSearchBar in Resources */,
 				AFBE8F25241171A300863BFA /* GoogleService-Info.plist in Resources */,
-				DD74DFE324299BC00070C06C /* Assets.xcassets in Resources */,
+				DD8AEE05242AC21E005662C2 /* Assets.xcassets in Resources */,
 				AF3913562408415600845A1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,17 +280,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8AEDFD242A82C4005662C2 /* TableViewCell1.swift in Sources */,
+				DD8AEE01242A82EE005662C2 /* DetailViewController.swift in Sources */,
 				DDCFB23D2429B76700D8FD14 /* CoreData.xcdatamodeld in Sources */,
+				DD8AEDFC242A82C4005662C2 /* TableViewController.swift in Sources */,
 				AF7A4F97240EE22E0030949E /* LoginViewController.swift in Sources */,
 				AF7A4F93240EE1DF0030949E /* CutomLoginViewController.swift in Sources */,
 				AF7A4F9D240EEFD90030949E /* Utilities.swift in Sources */,
 				DDCFB2392429B76700D8FD14 /* CoreDataManager.swift in Sources */,
+				DD8AEDFF242A82E6005662C2 /* Model.swift in Sources */,
 				AF3913632408459B00845A1D /* AboutViewController.swift in Sources */,
 				AF7A4F95240EE21C0030949E /* SignUpViewController.swift in Sources */,
-				DDCFB2382429B76700D8FD14 /* TableViewCell.swift in Sources */,
 				AF3913672408526B00845A1D /* MenuViewController.swift in Sources */,
 				AF7A4F99240EE2630030949E /* LoginHomeViewController.swift in Sources */,
-				DDCFB2262429B73D00D8FD14 /* TableViewController.swift in Sources */,
 				AF3913532408415600845A1D /* HomeViewController.swift in Sources */,
 				AF39136524084A0C00845A1D /* ProfileViewController.swift in Sources */,
 				AF39134F2408415600845A1D /* AppDelegate.swift in Sources */,
