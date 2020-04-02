@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0339992F5EF8DE85FD5B8FBA /* Pods_CTEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED81DD78EA68A78B6E47BD5 /* Pods_CTEx.framework */; };
+		AF10824F243426060048338C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10824E243426050048338C /* Default-568h@2x.png */; };
 		AF39134F2408415600845A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF39134E2408415600845A1D /* AppDelegate.swift */; };
 		AF3913512408415600845A1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3913502408415600845A1D /* SceneDelegate.swift */; };
 		AF3913532408415600845A1D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3913522408415600845A1D /* HomeViewController.swift */; };
@@ -22,6 +23,7 @@
 		AF7A4F97240EE22E0030949E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A4F96240EE22E0030949E /* LoginViewController.swift */; };
 		AF7A4F99240EE2630030949E /* LoginHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A4F98240EE2630030949E /* LoginHomeViewController.swift */; };
 		AF7A4F9D240EEFD90030949E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A4F9C240EEFD90030949E /* Utilities.swift */; };
+		AF94136B243650B500F3D16D /* SellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94136A243650B500F3D16D /* SellViewController.swift */; };
 		AFB1D1CF24174AB000915F05 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1D1CE24174AB000915F05 /* Constants.swift */; };
 		AFB1D1D4241758F900915F05 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AFB1D1D3241758F900915F05 /* loginbg.mp4 */; };
 		AFB1D1D624175EB100915F05 /* cloud.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AFB1D1D524175EB000915F05 /* cloud.mp4 */; };
@@ -31,6 +33,7 @@
 /* Begin PBXFileReference section */
 		394821187FB8FA00DAC432CD /* Pods-CTEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTEx.release.xcconfig"; path = "Target Support Files/Pods-CTEx/Pods-CTEx.release.xcconfig"; sourceTree = "<group>"; };
 		4ED81DD78EA68A78B6E47BD5 /* Pods_CTEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF10824E243426050048338C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AF39134B2408415600845A1D /* CTEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF39134E2408415600845A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF3913502408415600845A1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		AF7A4F96240EE22E0030949E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF7A4F98240EE2630030949E /* LoginHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeViewController.swift; sourceTree = "<group>"; };
 		AF7A4F9C240EEFD90030949E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		AF94136A243650B500F3D16D /* SellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellViewController.swift; sourceTree = "<group>"; };
 		AFB1D1CE24174AB000915F05 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AFB1D1D3241758F900915F05 /* loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginbg.mp4; sourceTree = "<group>"; };
 		AFB1D1D524175EB000915F05 /* cloud.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cloud.mp4; sourceTree = "<group>"; };
@@ -83,9 +87,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AF10825624364F900048338C /* Sell */ = {
+			isa = PBXGroup;
+			children = (
+				AF94136A243650B500F3D16D /* SellViewController.swift */,
+			);
+			name = Sell;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		AF3913422408415600845A1D = {
 			isa = PBXGroup;
 			children = (
+				AF10824E243426050048338C /* Default-568h@2x.png */,
 				AF39134D2408415600845A1D /* CTEx */,
 				AF39134C2408415600845A1D /* Products */,
 				089491BD50DAC2DE75C0E3AF /* Pods */,
@@ -104,18 +118,15 @@
 		AF39134D2408415600845A1D /* CTEx */ = {
 			isa = PBXGroup;
 			children = (
-				AF7A4F9B240EEF820030949E /* LoginHelpers */,
-				AFB1D1D02417525F00915F05 /* Media */,
-				AF7A4F9A240EE2B90030949E /* Login */,
-				AF39134E2408415600845A1D /* AppDelegate.swift */,
-				AF3913502408415600845A1D /* SceneDelegate.swift */,
-				AF3913522408415600845A1D /* HomeViewController.swift */,
+				AFAA3038243421F80046837E /* HOME */,
 				AFBE8F232411716A00863BFA /* Menu */,
+				AF7A4F9A240EE2B90030949E /* Login */,
+				AF10825624364F900048338C /* Sell */,
 				AF3913542408415600845A1D /* Main.storyboard */,
 				AF3913572408415D00845A1D /* Assets.xcassets */,
+				AF39135C2408415D00845A1D /* Info.plist */,
 				AF3913592408415D00845A1D /* LaunchScreen.storyboard */,
 				AFBE8F24241171A300863BFA /* GoogleService-Info.plist */,
-				AF39135C2408415D00845A1D /* Info.plist */,
 			);
 			path = CTEx;
 			sourceTree = "<group>";
@@ -123,6 +134,8 @@
 		AF7A4F9A240EE2B90030949E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				AFB1D1D02417525F00915F05 /* Media */,
+				AF7A4F9B240EEF820030949E /* LoginHelpers */,
 				AF7A4F92240EE1DF0030949E /* CutomLoginViewController.swift */,
 				AF7A4F94240EE21C0030949E /* SignUpViewController.swift */,
 				AF7A4F96240EE22E0030949E /* LoginViewController.swift */,
@@ -138,6 +151,16 @@
 				AFB1D1CE24174AB000915F05 /* Constants.swift */,
 			);
 			path = LoginHelpers;
+			sourceTree = "<group>";
+		};
+		AFAA3038243421F80046837E /* HOME */ = {
+			isa = PBXGroup;
+			children = (
+				AF3913522408415600845A1D /* HomeViewController.swift */,
+				AF3913502408415600845A1D /* SceneDelegate.swift */,
+				AF39134E2408415600845A1D /* AppDelegate.swift */,
+			);
+			name = HOME;
 			sourceTree = "<group>";
 		};
 		AFB1D1D02417525F00915F05 /* Media */ = {
@@ -224,6 +247,7 @@
 				AFB1D1D624175EB100915F05 /* cloud.mp4 in Resources */,
 				AF3913582408415D00845A1D /* Assets.xcassets in Resources */,
 				AFB1D1D4241758F900915F05 /* loginbg.mp4 in Resources */,
+				AF10824F243426060048338C /* Default-568h@2x.png in Resources */,
 				AF3913562408415600845A1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF7A4F97240EE22E0030949E /* LoginViewController.swift in Sources */,
+				AF94136B243650B500F3D16D /* SellViewController.swift in Sources */,
 				AF7A4F93240EE1DF0030949E /* CutomLoginViewController.swift in Sources */,
 				AF7A4F9D240EEFD90030949E /* Utilities.swift in Sources */,
 				AF3913632408459B00845A1D /* AboutViewController.swift in Sources */,
